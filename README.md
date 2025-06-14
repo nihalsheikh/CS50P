@@ -16,4 +16,8 @@ Topics covered in week 0
 - [x] Comments
 - [x] PseudoCode
 - [x] Args seperated by comma
+- [x] String Methods
+    - [x] strip()
+    - [x] capitalize()
+    - [x] title()
 - [x] Return Values
