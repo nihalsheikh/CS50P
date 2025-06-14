@@ -13,4 +13,7 @@ Topics covered in week 0
 - [x] Arguements
 - [x] Variables
 - [x] Assignment Operator (=)
+- [x] Comments
+- [x] PseudoCode
+- [x] Args seperated by comma
 - [x] Return Values
