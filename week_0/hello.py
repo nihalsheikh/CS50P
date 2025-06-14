@@ -19,5 +19,5 @@ print("hello,", name)
 # we can pass additional params such as `end` and `sep`
 # end="\n" takes you to next line
 # sep=" " adds space between 2 args
-print("hello,", end="")
+print("hello, ", end="")
 print(name)
