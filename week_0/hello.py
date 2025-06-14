@@ -21,3 +21,16 @@ print("hello,", name)
 # sep=" " adds space between 2 args
 print("hello, ", end="")
 print(name)
+
+# String Methods
+# 1. strip() - this method removes whitespaces from left and right of a string
+# ex: .....john.... => john
+name = name.string()
+
+# 2. capitalize() - this methods makes the first letter of the word of a string capital
+# ex: john doe => John doe
+name = name.capitalize()
+
+# 3. title() - this method will capitalize the first letter of every word in a string
+# ex: john doe => John Doe
+name = name.title()
