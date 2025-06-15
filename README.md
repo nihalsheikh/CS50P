@@ -8,7 +8,12 @@
 <br>
 
 ## Week 0
+Practice python file => [here](./week_0/hello.py)
 Topics covered in week 0
+
+<details>
+<summary>checkout topics:</summary>
+
 - [x] Functions
 - [x] Arguements
 - [x] Variables
@@ -21,3 +26,5 @@ Topics covered in week 0
     - [x] capitalize()
     - [x] title()
 - [x] Return Values
+
+</details>
