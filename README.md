@@ -34,6 +34,7 @@ Topics covered in week 0
 - [x] Float Point Values or Decimals
 - [x] Round off function
 - [x] Better Number Separation/Notation with fstring
+- [x] Functions in python
 - [x] Return Values
 
 </details>
