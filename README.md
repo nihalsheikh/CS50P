@@ -31,6 +31,9 @@ Topics covered in week 0
     - [x] Practice python file => [here](./week_0/calculator.py)
     - [x] int function
 - [x] Nesting and Nested Functions
+- [x] Float Point Values or Decimals
+- [x] Round off function
+- [x] Better Number Separation/Notation with fstring
 - [x] Return Values
 
 </details>
