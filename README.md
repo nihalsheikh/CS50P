@@ -40,7 +40,11 @@ Topics covered in week 0
 - [x] Return Values
 - [x] Side Effect
 - [x] Global Keyword
-- [x] [Problem Set 0](/problem_set_0/)
-    - [x] [Indoor Voice](/problem_set_0/indoor/indoor.py)
+- [x] [Problem Set 0](./week_0/problem_set_0/)
+    - [x] [Indoor Voice](./week_0/problem_set_0/indoor/indoor.py)
+    - [x] [Playback Speed](./week_0/problem_set_0/playback/playback.py)
+    - [x] [Making Faces](./week_0/problem_set_0/faces/faces.py)
+    - [x] [Einstein](./week_0/problem_set_0/einstein/einstein.py)
+    - [x] [Tip Calculator](./week_0/problem_set_0/tip/tip.py)
 
 </details>
