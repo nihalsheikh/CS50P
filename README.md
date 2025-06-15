@@ -21,12 +21,13 @@ Topics covered in week 0
 - [x] Comments
 - [x] PseudoCode
 - [x] Args seperated by comma
-- [x] String Methods
+- [x] String
     - [x] strip()
     - [x] capitalize()
     - [x] title()
     - [x] split()
 - [x] Method Chaining
+- [x] Integers
 - [x] Return Values
 
 </details>
