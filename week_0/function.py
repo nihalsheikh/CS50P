@@ -6,7 +6,7 @@ def hello(): # no args and default values specified here
 # hello() # fucn with no args and default values
 
 def greet(toWho="world"):
-    print(f"hello, {toWho}")
+    print("hello,", toWho)
 
 greet() # func with default value only
 
