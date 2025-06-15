@@ -8,7 +8,6 @@
 <br>
 
 ## Week 0
-Practice python file => [here](./week_0/hello.py)
 Topics covered in week 0
 
 <details>
@@ -21,13 +20,16 @@ Topics covered in week 0
 - [x] Comments
 - [x] PseudoCode
 - [x] Args seperated by comma
-- [x] String
+- [x] String or str
+    - [x] Practice python file => [here](./week_0/hello.py)
     - [x] strip()
     - [x] capitalize()
     - [x] title()
     - [x] split()
 - [x] Method Chaining
-- [x] Integers
+- [x] Integers or int
+    - [x] Practice python file => [here](./week_0/calculator.py)
+    - [x] int function
 - [x] Return Values
 
 </details>
