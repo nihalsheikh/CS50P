@@ -4,6 +4,7 @@
 
 ## Index
 - [week 0](#week-0)
+- [week 1](#week-1)
 
 <br>
 
@@ -46,5 +47,15 @@ Topics covered in week 0
     - [x] [Making Faces](./week_0/problem_set_0/faces/faces.py)
     - [x] [Einstein](./week_0/problem_set_0/einstein/einstein.py)
     - [x] [Tip Calculator](./week_0/problem_set_0/tip/tip.py)
+
+</details>
+
+## Week 1
+Topics covered in week 1
+
+<details>
+<summary>checkout topics:</summary>
+
+
 
 </details>
