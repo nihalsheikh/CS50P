@@ -30,6 +30,7 @@ Topics covered in week 0
 - [x] Integers or int
     - [x] Practice python file => [here](./week_0/calculator.py)
     - [x] int function
+- [x] Nesting and Nested Functions
 - [x] Return Values
 
 </details>
