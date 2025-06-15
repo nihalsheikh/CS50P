@@ -25,6 +25,7 @@ Topics covered in week 0
     - [x] strip()
     - [x] capitalize()
     - [x] title()
+    - [x] split()
 - [x] Method Chaining
 - [x] Return Values
 
