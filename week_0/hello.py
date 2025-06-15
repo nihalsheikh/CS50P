@@ -39,5 +39,10 @@
 # we can write multiple methods in a single line using (.) dot symbol, instead of writing in multiple lines
 name = input("Enter name: ").strip().title()
 
+# Split(): string method to seperate a string
+# Two new variables seperated by comma (,) created and assigned the value as name.split()
+# what we are hoping to achieve is sperating first and last name from the name
+first, last = name.split()
+
 # another special dynamic string writing syntax
-print(f"hello, {name}")
+print(f"hello, {first}")
