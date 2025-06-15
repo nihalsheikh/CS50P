@@ -1,5 +1,5 @@
 # Week 0: Problem 5
-# define 2 function to print the flaot value of amount and tip
+# define 2 function to print the flost value of amount and tip
 # Code structure was given on the page only define the dollar & percent func
 def main():
     dollars = dollars_to_float(input("How much was the meal? "))
@@ -9,11 +9,12 @@ def main():
 
 
 def dollars_to_float(d):
-    # TODO
-
+    d = d.lstrip('$')
+    return float(d)
 
 def percent_to_float(p):
-    # TODO
+    p = p.rstrip('%')
+    return float(p) / 100
 
 
 main()
