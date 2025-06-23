@@ -5,8 +5,6 @@ def main():
 
 def solve(e):
     a,b,c = e.split(" ")
-    a = int(a)
-    b = int(b)
     print(a, c, b)
 
 main()
