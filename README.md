@@ -56,6 +56,28 @@ Topics covered in week 1
 <details>
 <summary>checkout topics:</summary>
 
-
+- [x] Conditionals
+- [x] if keyword
+- [x] Boolean Expressions
+    - [x] [Practice Question](./week_1/compare.py)
+- [x] elif keyword
+- [x] else keyword
+- [x] or keyword
+- [x] and keyword
+- [x] Question: Include the inclusive range values using conditionals with assignment operators
+    - [x] [Inclusive Range](./week_1/grade.py)
+- [x] Boolean Values
+    - [x] True
+    - [x] False
+- [x] match case (switch case in other language, ex: Java)
+- [x] | (pipe symbol) or used in match case
+    - [x] [Use of |](./week_1/house.py)
+- [x] not keyword
+- [x] [Problem Set 1](./week_1/problem_set_1/)
+    - [x] [Deep Thought](./week_1/problem_set_1/deep/deep.py)
+    - [x] [Bank](./week_1/problem_set_1/bank/bank.py)
+    - [x] [File Extension](./week_1/problem_set_1/extensions/extensions.py)
+    - [x] [Interpreter](./week_1/problem_set_1/interpreter/interpreter.py)
+    - [x] [Meal Time](./week_1/problem_set_1/meal/meal.py)
 
 </details>
