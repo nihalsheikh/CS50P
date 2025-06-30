@@ -1,15 +1,34 @@
-# Launch a '.x' file type
-import mimetypes # to know what the file extension
+# Week 1: Problem 3
+# funcc which tells file's media type
 
-# user inputs file name:
 def main():
-    fileName = input("Enter file name: ")
-    fileExt(fileName)
+    name = input("Enter file name: ").strip().lower()
+    fileName(name)
 
-def fileExt(f):
-    ext, encoding = mimetypes.guess_type(f)
-    if encoding == "None":
-        print("application/octet-stream")
-    print(ext)
+def fileName(nameOfFile):
+    # splitting filename from right with only one break
+    nameOfFile, type = nameOfFile.rsplit(".", 1)
+    print(findType(type))
+
+def findType(extType):
+    if "." not in extType:
+        return "application/octet-stream"
+
+    match type:
+        case "gif":
+            return "image/gif"
+        case "jpg" | "jpeg":
+            return "image/jpeg"
+        case "png":
+            return "image/png"
+        case "pdf":
+            return "file/pdf"
+        case "txt":
+            return "file/text"
+        case "zip":
+            return "file/zip"
+        case _:
+            return "application/octet-stream"
+
 
 main()
