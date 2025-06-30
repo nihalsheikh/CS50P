@@ -50,7 +50,7 @@ Topics covered in week 0
 
 </details>
 
-## Week 1
+## Week 1: Conditionals
 Topics covered in week 1
 
 <details>
