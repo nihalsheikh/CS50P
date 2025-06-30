@@ -8,7 +8,7 @@
 
 <br>
 
-## Week 0
+## Week 0: Functions and Variables
 Topics covered in week 0
 
 <details>
