@@ -26,6 +26,21 @@ students = {
 }
 
 # to print the names of students, simply iterate over dict
+# for student in students:
+#     # prints: key: value
+#     print(student, students[student], sep=": ")
+
+# Using dict inside lists
+# lets say we have more data related to student, how are we gonna associate that data, see below example:
+# sometimnes we havce data which is literally empty or has no value, in such places we use None keyword
+# None keyword: it literally has no value
+students = [
+    {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
+    {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
+    {"name": "Ron", "house": "Gryffindor", "patronus": "Jack Russel Terrier"},
+    {"name": "Draco", "house": "Slytherin", "patronus": None}
+]
+
+# itetrating over a dict
 for student in students:
-    # prints: key: value
-    print(student, students[student], sep=": ")
+    print(student["name"], student["house"], student["patronus"], sep=", ")
