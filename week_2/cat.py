@@ -23,5 +23,9 @@
 # using for loop to perform same tasks as above
 # List: a datatype in python, to make a list use square brackets `[]` add items by separation using comma `,`
 print("For Loop")
-for i in [0,1,2]: # list is [0,1,2]
+# for i in [0,1,2]: # list is [0,1,2]
+#     print("meow")
+
+# same code as above, using range func instead of list
+for i in range(3):
     print("meow")
