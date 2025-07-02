@@ -74,10 +74,30 @@
 #     print("meow")
 
 # Optimizing the above code example
-while True:
-    n = int(input("What's n? "))
-    if n > 0:
-        break
+# while True:
+#     n = int(input("What's n? "))
+#     if n > 0:
+#         break
 
-for _ in range(n):
-    print("meow")
+# for _ in range(n):
+#     print("meow")
+
+
+# Optimizing the code again, but defining functions this time
+def main():
+    ntimes = call_meow()
+    meow(ntimes)
+
+def call_meow():
+    while True:
+        n = int(input("What's n ? "))
+        if n > 0:
+            return n
+        else:
+            continue
+
+def meow(n):
+    for _ in range(n):
+        print("meow")
+
+main()
