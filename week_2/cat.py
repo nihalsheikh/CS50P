@@ -27,5 +27,10 @@ print("For Loop")
 #     print("meow")
 
 # same code as above, using range func instead of list
-for i in range(3):
+# for i in range(3):
+#     print("meow")
+
+# minor improvements in the above code
+# as we only initialize i everytime we run for loop, we should use _ symbol, to specify it is never used again
+for _ in range(3):
     print("meow")
