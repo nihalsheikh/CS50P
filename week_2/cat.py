@@ -51,9 +51,24 @@
 
 # Infinite Loops
 # lets say, you want an user input of a positive no. but user enter a negative one...
-if n < 0:
+# if n < 0:
+#     n = int(input("What's n? "))
+#     if n < 0:
+#         n = int(input("What's n? "))
+#         if n < 0:
+#             n = int(input("What's n? "))
+
+#  to avoid the repeatition of the code like in the above we use infine loops
+# to use infinite loops, we use while True:
+# along with loops, we need to know other keywords like `continue` and `break`
+# continue: continues the current loop till the condition is satisfied
+# break: it breaks or ends the recently begun code loop
+while True:
     n = int(input("What's n? "))
     if n < 0:
-        n = int(input("What's n? "))
-        if n < 0:
-            n = int(input("What's n? "))
+        continue
+    else:
+        break
+
+for i in range(n):
+    print("meow")
