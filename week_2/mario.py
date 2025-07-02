@@ -18,19 +18,17 @@
 # Nested Loops
 # print a square wall, as we see in the mario underground level
 def main():
-    printWall(3)
+    ofSize = size()
+    printWall(ofSize)
+
+def size():
+    s = int(input("Enter wall size: "))
+    while True: 
+        if s > 0:
+            return s
 
 def printWall(size):
-    # this outer is loop for wall height
     for i in range(size):
-
-        # this inner loop is for wall width
-        for j in range(size):
-
-            # this print func is for no. bricks in a row: ---->
-            print("#", end="")
-
-        # this print func is for printing new line after coming out of inner loop
-        print()
+        print("#" * size)
 
 main()
