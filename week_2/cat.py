@@ -34,3 +34,17 @@ print("For Loop")
 # as we only initialize i everytime we run for loop, we should use _ symbol, to specify it is never used again
 for _ in range(3):
     print("meow")
+
+
+#  We can also write the above code without ever using loops
+print("\nAnother method")
+# multiply str by 3
+
+# in this case meow will be printed continuously
+# print("meow" * 3)
+
+#  This one below, prints an extra blank line below last meow
+# print("meow\n" * 3)
+
+# python lets you decide how to end line
+print("meow\n" * 3, end="")
