@@ -63,12 +63,21 @@
 # along with loops, we need to know other keywords like `continue` and `break`
 # continue: continues the current loop till the condition is satisfied
 # break: it breaks or ends the recently begun code loop
+# while True:
+#     n = int(input("What's n? "))
+#     if n < 0:
+#         continue
+#     else:
+#         break
+
+# for i in range(n):
+#     print("meow")
+
+# Optimizing the above code example
 while True:
     n = int(input("What's n? "))
-    if n < 0:
-        continue
-    else:
+    if n > 0:
         break
 
-for i in range(n):
+for _ in range(n):
     print("meow")
