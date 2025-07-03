@@ -5,14 +5,13 @@
 ## Index
 - [week 0](#week-0)
 - [week 1](#week-1)
+- [week 2](#week-2)
 
 <br>
 
 ## Week 0: Functions and Variables
-Topics covered in week 0
-
 <details>
-<summary>checkout topics:</summary>
+<summary>checkout the topics covered:</summary>
 
 - [x] Functions
 - [x] Arguements
@@ -51,10 +50,8 @@ Topics covered in week 0
 </details>
 
 ## Week 1: Conditionals
-Topics covered in week 1
-
 <details>
-<summary>checkout topics:</summary>
+<summary>checkout the topics covered:</summary>
 
 - [x] Conditionals
 - [x] if keyword
@@ -80,4 +77,9 @@ Topics covered in week 1
     - [x] [Interpreter](./week_1/problem_set_1/interpreter/interpreter.py)
     - [x] [Meal Time](./week_1/problem_set_1/meal/meal.py)
 
+</details>
+
+## Week 2: Loops
+<details>
+<summary>checkout the topics covered:</summary>
 </details>
