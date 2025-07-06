@@ -1,17 +1,25 @@
 # Report statistics of Spaceship
 def main():
     # print(create_report(spacecraft)) # used for Method 1 & 2
-    spacecraft = {
+    distances = {
         "Voyager 1": 163,
         "Voyager 2": 136,
         "Pioneer 10": 80,
-        "Pioneer 10": 44,
+        "Pioneer 11": 44,
         "New Horizon": 58,
     }
 
-    for name in spacecraft.keys():
-        print(f"{name} is {spacecraft[name]} AU away from earth")
+    # Key method: For looping over the key name in a dictionary
+    # for name in distances.keys():
+    #     print(f"{name} is {distances[name]} AU away from earth")
 
+    # Value method: for looping over the values in the dictionary
+    for distance in distances.values():
+        print(f"{distance} AU is {convert(distance)} m")
+
+def convert(au):
+    # Converting AU distance in meters
+    return au * 149597870700
 
 def create_report(spacecraft): # used for Method 1 & 2 only
     # Method 1: Normal access to dictionaries
