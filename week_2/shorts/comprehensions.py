@@ -7,12 +7,6 @@ def main():
     counts = {}
     words = get_words("speech.txt")
 
-    print(
-        f"""
-
-        """
-    )
-
     # Save the wors in the dictionary
     for word in words:
         if word in counts: # if word exists in dict, increase it's count by 1
