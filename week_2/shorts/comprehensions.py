@@ -9,7 +9,8 @@ def main():
 
     # List Comprehension
     # Performing some transformation on list
-    lowercase_words = [word.lower() for word in words]
+    # Filtering our list further with if condition
+    lowercase_words = [word.lower() for word in words if len(word) > 4]
 
     # Save the wors in the dictionary
     for word in lowercase_words:
