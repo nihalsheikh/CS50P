@@ -19,7 +19,7 @@ def main():
         else: # else, add it to dict and set it's count as 1
             counts[word] = 1
 
-    for word in counts:
+    for word in lowercase_words:
         print(
             f"""| {word} | {counts[word]}  |\n+----------------+\n""", end=""
         )
