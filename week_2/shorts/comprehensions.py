@@ -8,6 +8,7 @@ def main():
     words = get_words("speech.txt")
 
     # List Comprehension
+    # Performing some transformation on list
     lowercase_words = [word.lower() for word in words]
 
     # Save the wors in the dictionary
