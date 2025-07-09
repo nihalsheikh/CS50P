@@ -7,17 +7,20 @@ def main():
     counts = {}
     words = get_words("speech.txt")
 
+    # List Comprehension
+    lowercase_words = [word.lower() for word in words]
+
     # Save the wors in the dictionary
-    for word in words:
+    for word in lowercase_words:
         if word in counts: # if word exists in dict, increase it's count by 1
             counts[word] += 1
-            print(
-                f"""| {word} | {counts[word]}  |\n+----------------+\n""", end=""
-            )
         else: # else, add it to dict and set it's count as 1
             counts[word] = 1
 
-
+    for word in counts:
+        print(
+            f"""| {word} | {counts[word]}  |\n+----------------+\n""", end=""
+        )
 
 # Helping function created in GROK, high level stuff (ik, can't code the below function yet...)
 def get_words(file_path):
@@ -36,7 +39,7 @@ def get_words(file_path):
     """
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
-            text = file.read().lower()  # Convert to lowercase for consistency
+            text = file.read()
             # Split on whitespace and remove punctuation
             words = ''.join(char if char.isalnum() or char.isspace() else ' ' for char in text).split()
             return words
