@@ -4,7 +4,6 @@
 # List Comprehension
 
 def main():
-    counts = {}
     words = get_words("speech.txt")
 
     # List Comprehension
@@ -12,12 +11,9 @@ def main():
     # Filtering our list further with if condition
     lowercase_words = [word.lower() for word in words if len(word) > 4]
 
-    # Save the wors in the dictionary
-    for word in lowercase_words:
-        if word in counts: # if word exists in dict, increase it's count by 1
-            counts[word] += 1
-        else: # else, add it to dict and set it's count as 1
-            counts[word] = 1
+    # Dictionary Comprehension
+    # Doing the same thing as that for loop and if condition, but in less code
+    counts = {word: lowercase_words.count(word) for word in lowercase_words}
 
     for word in lowercase_words:
         print(
