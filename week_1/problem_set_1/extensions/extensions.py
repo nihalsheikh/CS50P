@@ -16,7 +16,6 @@ def findType(extType):
 
     match type:
         case "gif":
-            return "image/gif"
         case "jpg" | "jpeg":
             return "image/jpeg"
         case "png":
