@@ -6,7 +6,7 @@
 - [week 0](#week-0)
 - [week 1](#week-1)
 - [week 2](#week-2)
-- [Check Work Submission](https://submit.cs50.io/users/nihalsheikh)
+- [Check Work Submission](https://submit.cs50.io/courses/1202/)
 
 <br>
 
