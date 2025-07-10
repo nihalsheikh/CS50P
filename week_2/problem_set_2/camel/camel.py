@@ -13,21 +13,28 @@ def variable_name():
             return name
 
 def snake_case(var_name):
-       
-    new_word = ""
-    # Check every char in the string through loop
-    for char in var_name:
-        # when the char in string is Uppercase
-        if char.isupper():
-            # check whether the char is at the start of the string
-            if new_word != "":
-                new_word = new_word + "_" # add _ only when Uppercase char is not at the start
+    # Method 1: Using Loops and Conditions
+    # new_word = ""
+    # # Check every char in the string through loop
+    # for char in var_name:
+    #     # when the char in string is Uppercase
+    #     if char.isupper():
+    #         # check whether the char is at the start of the string
+    #         if new_word != "":
+    #             new_word = new_word + "_" # add _ only when Uppercase char is not at the start
 
-            new_word = new_word + char.lower() # and then add the lowercase version of that char
-        else:
-            # all the other the time when char is not uppercase, keep it adding to our new_word
-            new_word = new_word + char
+    #         new_word = new_word + char.lower() # and then add the lowercase version of that char
+    #     else:
+    #         # all the other the time when char is not uppercase, keep it adding to our new_word
+    #         new_word = new_word + char
 
+    # Method 2: Using List Comprehension
+    # enumerate(): it is a string method which iterates over a string and gives us the index and individual char in the string
+    new_word_list = [
+        "_" + char.lower() if char.isupper() and i > 0 else char.lower() for i, char in enumerate(var_name)
+    ]
+
+    new_word = ''.join(new_word_list)
     return f"snake_case: {new_word}"
 
 main()
