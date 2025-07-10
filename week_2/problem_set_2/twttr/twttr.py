@@ -7,16 +7,19 @@ def main():
 
 def shorten(user_text):
     # new word without vowels initialized
-    short_word = ""
+    # short_word = ""
 
     # Tuple of vowels
     vowels = ("a", "e", "i", "o" , "u", "A", "E", "I", "O", "U")
 
     # Method 1: Through loops and Conditions
     # go through every char in user_text and check if exist in vowels
-    for c in user_text:
-        if c not in vowels:
-            short_word += c
+    # for c in user_text:
+    #     if c not in vowels:
+    #         short_word += c
+
+    # Method 2: Using List Comprehension
+    short_word = ''.join([char for char in user_text if char not in vowels])
 
     return f"Short Word: {short_word}"
 
