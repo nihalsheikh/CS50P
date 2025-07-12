@@ -83,4 +83,47 @@
 ## Week 2: Loops
 <details>
 <summary>checkout the topics covered:</summary>
+
+- [x] Loops
+- [x] While Loop
+    - [x] continue
+    - [x] break
+- [x] Infinite Loop
+    - [x] while True
+- [x] For loops
+- [x] List
+    - [x] range
+    - [x] Accessing list items
+    - [x] length or len
+    - [x] append
+    - [x] remove
+    - [x] extend
+    - [x] insert
+    - [x] reverse
+- [x] Dictionary
+    - [x] Key: Value pairs
+    - [x] Accessing dictionary
+    - [x] get method
+    - [x] update method
+    - [x] pop
+    - [x] clear
+    - [x] items
+- [x] None keyword
+- [x] List and Dictionary Comprehension
+- [x] String Methods
+    - [x] capitalize
+    - [x] title
+    - [x] strip
+    - [x] join
+- [x] String Slicing
+- [x] Tuples
+    - [x] List vs Tuple
+    - [x] Better Memory utilization
+- [x] Some other functions/methods
+    - [x] getsizeof: (also use- import sys module)
+    - [x] enumerate
+    - [x] isalpha
+    - [x] isdigit
+    - [x] isalnum
+
 </details>
