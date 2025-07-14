@@ -11,7 +11,6 @@ def get_height(h):
 
 def pyramid(height):
     for i in range(height):
-        print(i, end=" ")
         print("#" * (i + 1))
 
 main()
