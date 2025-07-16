@@ -8,5 +8,14 @@ import random
 # print(coin)
 
 # Get a random integer from (a, b) inclusive range
-number = random.randint(1, 10)
-print(number)
+# number = random.randint(1, 10)
+# print(number)
+
+# shuffle the list items
+# list of type of cards
+cards = ["diamond", "heart", "spade", "club"]
+# shuffle function in random module
+random.shuffle(cards)
+# print card individually
+for card in cards:
+    print(card)
