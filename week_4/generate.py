@@ -13,7 +13,7 @@ import random
 
 # shuffle the list items
 # list of type of cards
-cards = ["diamondaaa", "heart", "spade", "club"]
+cards = ["diamond", "heart", "spade", "club"]
 # shuffle function in random module
 random.shuffle(cards)
 # print card individually
