@@ -8,8 +8,12 @@ def main():
     # my_card = random.choice(cards)
     # print(my_card)
 
-    # choices: returns multiple value when specified
-    my_cards = random.choices(cards, k=2)
+    # choices: returns multiple value when specified. Uses sampling with replacement
+    # my_cards = random.choices(cards, k=2)
+    # print(my_cards)
+
+    # sample: returns multiple value when specified, but without replacement
+    my_cards = random.sample(cards, k=2)
     print(my_cards)
 
 main()
