@@ -1,8 +1,10 @@
 # Week 4: Shorts: Modules and Packages
 # for searching artworks
+# import artworks
 from artworks import get_artworks
 
 # for searching artists
+# import artists
 from artists import get_artists
 
 def main():
