@@ -5,6 +5,7 @@
 import requests
 import sys
 
+
 def main():
     print("Search the ARt Institute of Chicago!")
     artist = input("Enter name of the Artist: ")
@@ -16,7 +17,7 @@ def main():
         response = requests.get(
             "https://api.artic.edu/api/v1/artworks/search",
             # API Parameters
-            {"q": artist}
+            {"q": artist},
         )
 
         #  we also need to check if the response actually worked as intended
@@ -27,5 +28,6 @@ def main():
     content = response.json()
     for artwork in content["data"]:
         print(f"* {artwork['title']}")
+
 
 main()
