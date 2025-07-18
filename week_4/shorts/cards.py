@@ -9,7 +9,7 @@ def main():
     # print(my_card)
 
     # choices: returns multiple value when specified
-    my_cards = random.choice(cards)
+    my_cards = random.choices(cards, k=2)
     print(my_cards)
 
 main()
