@@ -6,14 +6,14 @@ import emoji
 
 def main():
     # get user input fro emoji
-    text = input("Input: ").strip()
-    print(f"Output: {set_emoji(text)}")
+    text = input("").strip()
+    print(set_emoji(text), end="")
 
 
 # change text to emoji
 def set_emoji(e):
     try:
-        return emoji.emojize(e, language="alias", variant="emoji_type")
+        return f"{emoji.emojize(e, language="alias")}"
     except (ValueError, KeyError, AttributeError):
         return "Unknown Emoji"
 
