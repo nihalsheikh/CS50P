@@ -15,7 +15,7 @@ def guessed_num():
     while True:
         level = int(input("Level: ").strip())
         if level > 0:
-            break;
+            break
     # set an random answer between 1 and user input
     ans = random.randint(1, level)
 
