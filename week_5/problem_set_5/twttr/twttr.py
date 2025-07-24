@@ -6,8 +6,8 @@ def main():
 
 
 def shorten(word):
-    vowels= ("a", "e", "i", "o", "u") # ["a", "e", "i", "o", "u"] ["A", "E", "I", "O", "U"]
-    # vowels = ("a", "e", "i", "o", "u", "A", "E", "I", "O", "U")
+    # ["a", "e", "i", "o", "u"] ["A", "E", "I", "O", "U"]
+    vowels = ("a", "e", "i", "o", "u", "A", "E", "I", "O", "U")
     new_word = "".join([char for char in word if char not in vowels])
     return new_word
 

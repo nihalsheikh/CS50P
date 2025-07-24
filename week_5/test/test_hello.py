@@ -8,3 +8,4 @@ def test_default():
 
 def test_argument():
     assert hello("Nihal") == "hello, Nihal"
+
