@@ -1,5 +1,6 @@
 # Week 5: Unit tests
 # testing the calculator file
+import pytest
 from calculator import square
 
 
@@ -15,3 +16,8 @@ def test_negative():
 
 def test_zer():
     assert square(0) == 0
+
+
+def test_str():
+    with pytest.raises(TypeError):
+        square("cat")
