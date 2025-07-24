@@ -1,10 +1,14 @@
 # Week 5: Unit Tests
-# Return value
+# calculate square
 def main():
-    x = int(input("Enter x: "))
+    x = int(input("What's x? "))
     print("x squared is", square(x))
 
-def square(n):
-    return n * n
 
-main()
+def square(n):
+    return n + n
+
+
+# calling main only when this file will be executed
+if __name__ == "__main__":
+    main()
