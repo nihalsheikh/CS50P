@@ -6,7 +6,7 @@ def main():
 
 
 def square(n):
-    return n + n
+    return n * n
 
 
 # calling main only when this file will be executed
