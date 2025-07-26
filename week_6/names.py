@@ -2,6 +2,6 @@
 
 name = input("What's your name? ")
 
-file = open("names.md", "w")
-file.write(name)
+file = open("names.md", "a") # "w": for overwriting previous data. "a": to append to existing data
+file.write(f"{name}\n")
 file.close()
