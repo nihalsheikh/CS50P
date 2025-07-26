@@ -53,7 +53,7 @@ output = clock_template.format(
 
 
 # Save clocks to Markdown file
-with open("world_clocks.md", "w") as f:
+with open("clocks.md", "w") as f:
     f.write("# World Clocks\n\n")
     f.write("```\n")
     f.write(output)
