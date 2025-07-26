@@ -13,6 +13,10 @@
 #     for line in file:
 #         print("hello,", line.rstrip())
 
+# Sorting the file only and then printing the names
+# with open("names.md") as file:
+#     for line in sorted(file):
+#         print("hello,",line.rstrip())
 
 # Sorting and then Reading the file
 names = [] # we will save the file data here
