@@ -9,6 +9,19 @@
 
 
 # Reading the file (or Loading the file)
-with open("names.md", "r") as file:
+# with open("names.md", "r") as file:
+#     for line in file:
+#         print("hello,", line.rstrip())
+
+
+# Sorting and then Reading the file
+names = [] # we will save the file data here
+
+# reading all the data from the file and saving it the names list
+with open("names.md") as file:
     for line in file:
-        print("hello,", line.rstrip())
+        names.append(line.rstrip())
+
+# sorting the names list and then printing it
+for name in sorted(names):
+    print(f"hello, {name}")
