@@ -24,8 +24,8 @@ clock_template = """
     ((-._____.-))                     ((-._____.-))                     ((-._____.-))
     _))       ((_                     _))       ((_                     _))       ((_
    '--'       '--'                   '--'       '--'                   '--'       '--'
-    {city1}               {city2}                       {city3}
-    {time1}               {time2}                       {time3}
+{city1}               {city2}               {city3}
+{time1}               {time2}               {time3}
 """
 
 # Prepare city names and time strings
