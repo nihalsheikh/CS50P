@@ -1,0 +1,13 @@
+# Week 6: File I/O
+import csv
+
+students = []
+
+with open("address.csv") as file:
+    reader = csv.reader(file)
+    for name, home in reader:
+        students.append({"name": name, "home": home})
+
+
+for student in sorted(students, key=lambda student: student["name"]):
+    print(f"{student['name']} lives in {student['home']}")
