@@ -17,9 +17,9 @@ with open("students.csv") as file:
         student = {"name": name, "house": house}
         students.append(student)
 
-def get_name(student):
-    return student["name"]
+# def get_name(student):
+#     return student["name"]
 
 # students: list iterable, get_name: gives name from dictionary, reverse: sorting order (True: desc, False: asc)
-for student in sorted(students, key=get_name, reverse=False):
+for student in sorted(students, key=lambda student: student["name"]):
     print(f"{student['name']} is in house: {student['house']}")
