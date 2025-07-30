@@ -14,9 +14,7 @@ def validate(ip):
     matches = re.search(pattern, ip)
 
     try:
-        # if 0 <= int(matches.group("g1")) <= 255 and 0 <= int(matches.group("g2")) <= 255 and 0 <= int(matches.group("g3")) <= 255 and 0 <= int(matches.group("g4")) <= 255 :
-        groups = matches.groups()
-        if all(0 <= int(group) <=255 for group in groups):
+        if all(0 <= int(group) <=255 and (group == "0" or not group.startswith("0")) for group in matches.groups()):
             if matches:
                 return True
         else:
