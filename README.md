@@ -14,9 +14,9 @@
 | [week 5](#week-5-unit-tests) | [5](./week_5/problem_set_5/) |
 | [week 6](#week-6-file-io) | [6](./week_6/problem_set_6/) |
 | [week 7](#week-7-regular-expressions) | [7](./week_7/problem_set_7/) |
-| [week 8](#week-0) | [8](./week_0/problem_set_0/) |
+| [week 8](#week-8-object-oriented-programming) | [8](./week_8/) |
 
-- [Check Work Submission](https://submit.cs50.io/courses/1202/)
+- [Check Work Submission](https://submit.cs50.io/courses)
 
 <br>
 
@@ -379,4 +379,11 @@
     - [x] [Regular, um, Expressions](./week_7/problem_set_7/um/)
     - [x] [Response Validation](./week_7/problem_set_7/response/response.py)
 
+</details>
+
+
+## Week 8: Object-Oriented Programming
+
+<details>
+<summary>checkout the topics covered:</summary>
 </details>
