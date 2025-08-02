@@ -127,3 +127,29 @@
     - [x] isalnum
 
 </details>
+
+
+## Week 3: Exceptions
+
+<details>
+<summary>checkout the topics covered:</summary>
+
+- [x] Errors
+    - [x] Runtime Errors
+    - [x] SyntaxError
+    - [x] ValueError
+    - [x] NameError
+- [x] Exception Handling
+    - [x] try
+    - [x] except
+    - [x] else
+- [x] Infinite loop with Exception handling
+- [x] **_`pass`_** keyword
+- [x] Debugging
+    - [x] Bugs
+    - [x] Debugger
+    - [x] Breakpoint
+- [x] Raising Exceptions
+    - [x] **_`raise`_** keyword
+
+</details>
