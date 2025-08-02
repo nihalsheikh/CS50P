@@ -157,6 +157,11 @@
     - [x] Breakpoint
 - [x] Raising Exceptions
     - [x] **_`raise`_** keyword
+- [x] [Problem Set 3](./week_3/problem_set_3/)
+    - [x] [Fuel Gauge](./week_3/problem_set_3/fuel/fuel.py)
+    - [x] [Felipe's Taqueria](./week_3/problem_set_3/taqueria/taqueria.py)
+    - [x] [Grocery List](./week_3/problem_set_3/grocery/grocery.py)
+    - [x] [Outdated](./week_3/problem_set_3/outdated/outdated.py)
 
 </details>
 
