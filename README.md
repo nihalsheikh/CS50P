@@ -223,3 +223,28 @@
     - [x] [Bitcoin Price Index](./week_4/problem_set_4/bitcoin/bitcoin.py)
 
 </details>
+
+## Week 5: Unit Tests
+
+<details>
+<summary>checkout the topics covered:</summary>
+
+- [x] Testing a function
+- [x] assert
+    - [x] Exception handling with assert
+- [x] AssertionError
+- [x] Pytest
+    - [x] raises(ErrorName)
+    - [x] isinstance(object, classinfo)
+    - [x] approx(num, diff_num)
+- [x] Unit Testing
+- [x] Package
+- [x] **_`with`_** keyword
+- [x] [Problem Set 5](./week_5/problem_set_5/)
+    - [x] [testing my twttr](./week_5/problem_set_5/twttr/test_twttr.py)
+    - [x] [Back to the Bank](./week_5/problem_set_5/test_bank/test_bank.py)
+    - [x] [Re-requesting a Vanity Plate](./week_5/problem_set_5/test_plates/test_plates.py)
+    - [x] [Refueling](./week_5/problem_set_5/test_fuel/test_fuel.py)
+
+
+</details>
