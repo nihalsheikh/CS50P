@@ -3,9 +3,19 @@
 <p>This is a repository made to track practice python programming along with a goal of keeping track of my learnings and making that github heatmap green</p>
 
 ## Index
-- [week 0](#week-0)
-- [week 1](#week-1)
-- [week 2](#week-2)
+
+| Week | Problem Set |
+| ---- | ----------- |
+| [week 0](#week-0-functions-and-variables) | [0](./week_0/problem_set_0/) |
+| [week 1](#week-1-conditionals) | [1](./week_1/problem_set_1/) |
+| [week 2](#week-2-loops) | [2](./week_2/problem_set_2/) |
+| [week 3](#week-3-exceptions) | [3](./week_3/problem_set_3/) |
+| [week 4](#week-4-libraries) | [4](./week_4/problem_set_4/) |
+| [week 5](#week-5-unit-tests) | [5](./week_5/problem_set_5/) |
+| [week 6](#week-6-file-io) | [6](./week_6/problem_set_6/) |
+| [week 7](#week-7-regular-expressions) | [7](./week_7/problem_set_7/) |
+| [week 8](#week-0) | [8](./week_0/problem_set_0/) |
+
 - [Check Work Submission](https://submit.cs50.io/courses/1202/)
 
 <br>
