@@ -214,5 +214,12 @@
         - [x] pylint
         - [x] pycodestyle
         - [x] black
+- [x] [Problem Set 4](./week_4/problem_set_4/)
+    - [x] [Emojize](./week_4/problem_set_4/emojize/emojize.py)
+    - [x] [Frank, Ian and Glen's Letters](./week_4/problem_set_4/figlet/figlet.py)
+    - [x] [Adieu, Adieu](./week_4/problem_set_4/adieu/adieu.py)
+    - [x] [Guessing Game](./week_4/problem_set_4/game/game.py)
+    - [x] [Little Professor](./week_4/problem_set_4/professor/professor.py)
+    - [x] [Bitcoin Price Index](./week_4/problem_set_4/bitcoin/bitcoin.py)
 
 </details>
