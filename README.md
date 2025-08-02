@@ -302,3 +302,71 @@
     - [x] [CS50 P-Shirt](./week_6/problem_set_6/shirt/shirt.py)
 
 </details>
+
+## Week 7: Regular Expressions
+
+<details>
+<summary>checkout the topics covered:</summary>
+
+- [x] Regular Expressions or Regex
+- [x] re library
+    - [x] re.search
+        - patterns
+        - strings
+        - flags
+            - IGNORECASE
+            - MULTILINE
+            - DOTALL
+    - [x] re.match
+        -  group
+        - groups
+    - [x] re.sub
+    - [x] re.fullmatch
+    - [x] re.split
+    - [x] re.findall
+- [x] Some special symbols in regex
+    - [x] **`.`** dot - char
+    - [x] **`*`** asterisk - 0 or more character
+    - [x] **`+`** plus - 1 or more character
+    - [x] **`?`** question mark - 0 or 1 character
+    - [x] **`{m}`** repetitions of character
+    - [x] **`{m, n}`** range of repetitions of character
+    - [x] **`^`** caret - start of string
+    - [x] **`$`** dollar - end of string
+    - [x] **`[]`** set of characters
+    - [x] **`[^]`** complement of the set of characters
+    - [x] **`[x-y]`** range of characters using `-` dash
+    - [x] **`A | B`** either A or B with pipe symbol `|`
+    - [x] **`(...)`** group characters and capture
+    - [x] **`(?...)`** don't capture the group
+- [x] Non-deterministic Finite Automaton
+    - [x] keep track of pattern match
+    - [x] first state (single circle)
+    - [x] curve edge
+    - [x] label
+    - [x] reflexive edge
+    - [x] accept state (double circle)
+- [x] raw string
+    - `r""`
+- [x] special characters
+    - `\`
+- [x] list of patterns
+    - [x] **`\d`** decimal digits (numbers 0-9)
+    - [x] **`\D`** not decimal digit
+    - [x] **`\s`** whitespace character
+    - [x] **`\S`** not a whitespace character
+    - [x] **`\w`** word characters(a-zA-Z), numbers(0-9) and underscore `_`
+    - [x] **`\W`** not a word characters
+    - [x] **`\b`** boundary of a character
+- [x] group
+- [x] Wallrus Operator (:=)
+- [x] replace()
+- [x] removeprefix()
+- [x] [Problem Set 7](./week_7/problem_set_7/)
+    - [x] [NUMB3RS](./week_7/problem_set_7/numb3rs/)
+    - [x] [Watch on YouTube](./week_7/problem_set_7/watch/watch.py)
+    - [x] [Working 9 to 5](./week_7/problem_set_7/working/)
+    - [x] [Regular, um, Expressions](./week_7/problem_set_7/um/)
+    - [x] [Response Validation](./week_7/problem_set_7/response/response.py)
+
+</details>
