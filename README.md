@@ -125,6 +125,12 @@
     - [x] isalpha
     - [x] isdigit
     - [x] isalnum
+- [x] [Problem Set 2](./week_2/problem_set_2/)
+    - [x] [camelCase](./week_2/problem_set_2/camel/camel.py)
+    - [x] [Coke Machine](./week_2/problem_set_2/coke/coke.py)
+    - [x] [Just setting up my twttr](./week_2/problem_set_2/twttr/)
+    - [x] [Vanity Plates](./week_2/problem_set_2/plates/plates.py)
+    - [x] [Nutrition Facts](./week_2/problem_set_2/nutrition/nutrition.py)
 
 </details>
 
@@ -151,5 +157,57 @@
     - [x] Breakpoint
 - [x] Raising Exceptions
     - [x] **_`raise`_** keyword
+
+</details>
+
+## Week 4: Libraries
+
+<details>
+<summary>checkout the topics covered:</summary>
+
+- [x] Libraries
+- [x] Modules
+    - [x] random
+        - [x] randint(a, b)
+        - [x] shuffle(x)
+        - [x] choice(list)
+        - [x] choices(list, weights, num)
+        - [x] sampling with replacement
+        - [x] sample(list, num)
+        - [x] seed
+    - [x] statistics
+        - [x] mean(x)
+    - [x] sys
+        - [x] argv[indx]
+        - [x] exit(msg)
+    - [x] requests
+        - [x] get(url, params)
+    - [x] json
+        - [x] dumps(json_value, index)
+- [x] **_`import`_** keyword
+- [x] **_`from`_** keyword
+- [x] Command-line arguments
+- [x] String Method: `slices`
+- [x] Packages
+    - [x] PyPi: Python Package Index
+    - [x] pip
+- [x] API
+    - [x] Endpoints
+    - [x] JSON
+    - [x] Using Exception Handling with API
+    - [x] API Parameters
+- [x] Using main function
+    - [x] __name__
+    - [x] __main__
+- [x] Package
+    - [x] Dunder files
+    - [x] Dunder __init__ file
+- [x] Style
+    - [x] PEP: Python Enhancement Proposal
+    - [x] PEP8
+    - [x] linter
+        - [x] pylint
+        - [x] pycodestyle
+        - [x] black
 
 </details>
