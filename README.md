@@ -248,3 +248,57 @@
 
 
 </details>
+
+## Week 6: File I/O
+
+<details>
+<summary>checkout the topics covered:</summary>
+
+- [x] open function
+    - [x] requirements for open
+    - [x] open(fileName, fileHandle)
+    - [x] `"w"`: write file handle
+    - [x] **__`write`__** method
+        - [x] write(value)
+    - [x] **__`close`__** method
+        - [x] file.close()
+    - [x] `"a"`: append file handle
+    - [x] `"r"`: read file handle: default for oepning a file
+    - [x] readlines function
+- [x] with keyword
+- [x] `as` keyword
+- [x] sorted(iterable, sortingMethod, doReverse)
+- [x] CSV: Comma Separated Values
+    - [x] csv module
+        - [x] reader function
+        - [x] DictReader
+        - [x] writer
+        - [x] DictWriter
+        - [x] witerow
+- [x] Dictionary Shorthand
+- [x] Lambda Function or Anonymous Function
+    - syntax: lamda param: returnValue
+- [x] Binary File
+- [x] Pillow or PIL
+    - [x] Image class
+    - [x] size
+    - [x] format
+    - [x] rotate
+    - [x] save
+    - [x] ImageFilter class
+    - [x] filer
+- [x] Reading and Writing CSV and Other file
+    - [x] using DictReader
+    - [x] using DictWriter
+    - [x] writer and writerheader
+    - [x] writerrow
+    - [x] read()
+    - [x] readlines()
+    - [x] writelines()
+- [x] [Problem Set 6](./week_6/problem_set_6/)
+    - [x] [Lines of Code](./week_6/problem_set_6/lines/)
+    - [x] [Pizza Py](./week_6/problem_set_6/pizza/pizza.py)
+    - [x] [Scourgify](./week_6/problem_set_6/scourgify/scourgify.py)
+    - [x] [CS50 P-Shirt](./week_6/problem_set_6/shirt/shirt.py)
+
+</details>
