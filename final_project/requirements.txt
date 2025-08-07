@@ -1,0 +1,12 @@
+'''
+Project Requirement files:
+
+re
+random
+argparse
+csv
+cryptography
+cryptography fernet
+python tabulate package: pip install tabulate
+linter: black
+'''
